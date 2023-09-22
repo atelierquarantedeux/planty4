@@ -1,6 +1,6 @@
 <?php
 
-
+// Function to link to file
 
 add_action('wp_enqueue_scripts', 'theme_enqueue_styles');
 
