@@ -1,0 +1,1001 @@
+/* Import de la font Syne depuis Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+
+h1,h2,h3,h4,h5,h6,p,a {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: 'Syne', sans-serif;     /* on applique la font "Syne" sur tous les éléments de la page */
+}
+
+.mainContainer {
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 20px;
+}
+
+.ContenaireHeader {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 50px;
+ }
+
+.courbure {
+  height:40px;
+  width:100%;
+  background: #ECE2DA;
+  border-radius: 0 0 60% 60%;
+  box-shadow: 0 10px 0 #E3D9D0;
+}
+
+.courburez2  {
+  height:40px;
+  width:100%;
+  background: #ECE2DA;
+  border-radius: 0 0 60% 60%;
+ }
+
+.menuNavigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10%;
+  align-items: center;
+}
+
+.cssHeader {
+  font-weight: 800;
+  color: #3B8E46;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  max-width: 400px;
+  min-width: 150px;
+}
+
+.cssFooter {
+  font-weight: 800;
+  color: #3B8E46;
+  display: flex;
+  justify-content: center;
+
+}
+
+li {
+  list-style: none;
+  min-width: 115px;
+
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* page Home Planty */
+
+.BoissonENERGISSANTE {
+  font-weight: bolder;
+  color: #3B8E46;
+  background-color: #ECE2DA;
+  height: 92px;
+  width: 700px;
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 100px;
+ }
+
+ .NRJPlantes {
+  padding-top: 50px;
+  font-weight: 700;
+  color: #3B8E46;
+  height: 92px;
+  text-align: center;
+  font-size: 38px;
+ }
+
+.PlantyText  {
+  text-align: center;
+  font-size: 20px;
+ }
+
+.lesGouts {
+  font-weight: 800;
+  color: #D2776A;
+  text-align: center;
+  font-size: 58px;
+}
+
+.textlesGouts {
+  text-align: center;
+}
+
+/* page nous rencontrer */
+.NousRENCONTRER {
+  width: 100%;
+  height: 0;
+  padding-bottom: 6.25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 210px;
+  background-color: #ECE2DA;
+}
+
+.textNousRENCONTRER {
+  font-size: 54px;
+  color: #D2776A;
+  text-align: center;
+  font-family: 'Syne';
+  font-style: normal;
+  font-weight: 800;
+  font-weight: bolder;
+  height: 92px;
+  margin-top: 50px;
+}
+
+.TailleImageFleur {
+  width : 20%;
+}
+
+.paragropheZz {
+  width: 100%;
+  height: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textparagrapheNousRENCONTRER {
+  font-size: 20px;
+  color: #000;
+  text-align: center;
+  font-family: 'Syne';
+  font-style: normal;
+  font-weight: 400;
+  padding-top: 30px;
+}
+
+.LEquipe {
+  width: 100%;
+  height: 0;
+  padding-bottom: 6.25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.textLEquipe {
+  font-size: 54px;
+  color: #000;
+  text-align: center;
+  font-family: 'Syne';
+  font-style: normal;
+  font-weight: 700;
+}
+
+.textLEquipe2 {
+  font-size: 20px;
+  color: #000;
+  text-align: center;
+  font-family: 'Syne';
+  font-style: normal;
+  font-weight: 700;
+}
+
+.FlexLEquipe {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 28%;
+}
+
+.FlexLEquipe2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.NousContacter {
+  font-size: 30px;
+  color: #000;
+  text-align: center;
+  font-family: 'Syne';
+  font-style: normal;
+  font-weight: 700;
+}
+
+.formulaireCF7NousRencontrer {
+  font-size: 20px;
+  color: #000;
+  font-family: 'Syne';
+  font-style: normal;
+  font-weight: 400;
+  width: 100%;
+  height: 60px;
+  border: none;
+  border-radius: 8px;
+  margin: 15px 0 8px 0;
+}
+
+.formulaireCF7NousRencontrer2 {
+  font-size: 20px;
+  color: #000;
+  font-family: 'Syne';
+  font-style: normal;
+  font-weight: 400;
+  width: 100%;
+  height: 240px;
+  border: none;
+  border-radius: 8px;
+  margin: 15px 0 8px 0;
+}
+
+.NousContacterFormulaire {
+  font-size: 20px;
+  color: #000;
+  font-family: 'Syne';
+  font-style: normal;
+  font-weight: 400;
+  width: 350px;
+  z-index: 1;
+
+}
+
+.FleursousFormulaire {
+  width: 100%;
+  height: 200px;
+  padding-bottom: 11.25%;
+  background-image: url('http://localhost/planty6/wp-content/uploads/2023/07/Group-16.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: relative;
+  top: -214px;
+  left: -174px;
+  z-index: -1;
+}
+
+.ContenaireFormulaireZz {
+  display: flex;
+  flex-direction: row;
+  gap: 20%;
+  margin-left: 7%;
+  align-items: center;
+}
+
+
+/* formulaireCF7 */
+
+.wpcf7-submit {
+ background: #DC9F96;
+ color: white;
+}
+
+#wpcf7-f1691-p57-o1 .wpcf7-submit {
+ width: 50%;
+ height: 50px;
+ font-size: 20px;
+ border-radius: 3px;
+ border: 0;
+ margin-left: 25%;
+}
+
+.AgencementFormulaire {
+  display: flex;
+  flex-direction: column;
+  margin-left: 120px;
+}
+
+ .directionRowFormulaire {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3%;
+ }
+
+.Commander {
+  width: 100%;
+  height: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 6.25%;
+}
+
+.textCommander {
+  font-size: 38px;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Syne';
+  font-style: normal;
+  font-weight: 800;
+}
+
+.BgCouleurVert {
+  background: #3B8E46;
+ }
+
+
+.separatorLigneHorizontal {
+  border: none;
+  border-top: 1px solid white;
+  width: 76%;
+  margin-left: 10%;
+}
+
+.separatorLigneVertical {
+  border: none;
+  border-left: 1px solid white;
+  height: 70%;
+}
+
+.directionColumnFormLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding-right: 3%;
+  margin: 0;
+ }
+
+.directionColumnFormRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding-left: 7%;
+  margin-left: 2%;
+ }
+
+.saisieCommander {
+  width: 100px;
+  height: 10px;
+  color : white;
+  font-size: 20px;
+  border-radius: 20% 0 0  20%;
+  border: none;
+}
+
+#wpcf7-f443-p212-o1 .wpcf7-text {
+  width: 150%;
+  height: 50px;
+  color : black;
+  font-size: 20px;
+  border-radius: 2%;
+  border: none;
+}
+
+#wpcf7-f443-p212-o1 .wpcf7-submit {
+  width: 150%;
+  height: 50px;
+  color : white;
+  font-size: 20px;
+  border-radius: 2%;
+  border: none;
+  margin-left: 30%;
+}
+
+.TextVotreCommande {
+  font-size: 30px;
+  color: #FFFFFF;
+  text-align: left;
+  font-family: 'Syne';
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 10%;
+}
+
+/* GRID 2 */
+.grille2 {
+  max-width: 1400px;
+  width: 80%;
+  height: auto;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 250px);
+  justify-content: center;
+  grid-gap: 45px;
+}
+
+.grid-item2 {
+  width: 200px;
+  height: auto;
+  background: #3B8E46;
+}
+
+.TailleImage2 {
+  width : 200px;
+  height: 150px;
+}
+
+/* GRID 3 */
+.grille3 {
+  max-width: 1400px;
+  width: 80%;
+  height: auto;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  justify-content: center;
+  grid-gap: 45px;
+}
+
+.grid-item3 {
+  width: 200px;
+  height: auto;
+  background: #3B8E46;
+}
+
+.QuantiteeCommander {
+  width: 55px;
+  height: 50px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 20% 0 0  20%;
+  border: none;
+}
+
+.BoutonMath {
+  font-size: 20px;
+  font-weight: bolder;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.btnCommander2 {
+  height: 50px;
+  width: 90px;
+  border-radius: 5px;
+  align-items: center;
+  background-color: #DC9F96;
+  color: white;
+}
+
+.BgCouleurBordeaux {
+  background-color: #DC9F96;
+  width: 50px;
+  border-radius: 0 20% 20% 0;
+ }
+
+ .directionRow2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+ }
+
+ .directionColumn2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.separatorLigneHorizontal2 {
+  border: none;
+  border-top: 2px solid white;
+  width: 100%;
+}
+
+.TextSaisieCommande {
+  font-size: 30px;
+  color: #FFFFFF;
+  text-align: left;
+  font-family: 'Syne';
+  font-style: normal;
+  font-weight: 700;
+}
+
+.directionRow3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 8%;
+ }
+
+.FormulaireCF7 {
+  display: grid;
+  width: 500px;
+}
+
+.imageFruit {
+  height: 263px;
+  width: 394px;
+}
+
+.DivCommander {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #DC9F96;
+  color: white;
+  height: 80px;
+  width: 236px;
+}
+
+.LienCommander {
+  background-color: #DC9F96;
+  color: white;
+}
+
+/* Bouton */
+.btnCommander {
+  height: 55px;
+  width: 198px;
+  border-radius: 5px;
+  align-items: center;
+  background-color: #DC9F96;
+  color: white;
+}
+
+/* GRID */
+.grille {
+  max-width: 900px;
+  width: 80%;
+  height: auto;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 400px);
+  justify-content: center;
+  grid-gap: 15px;
+}
+
+.grid-item {
+  width: 400px;
+  height: auto;
+  background: #ECE2DA;
+}
+
+.Vide {
+  height:40px;
+  width:100%;
+  background: white;
+  border-radius: 0 0 60% 60%;
+}
+
+ .BgCouleur {
+  background-color: #ECE2DA;
+ }
+
+.directionColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ }
+
+ .directionRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3%;
+ }
+
+ .imageTrouee {
+  justify-content: space-around;
+  height: 398px;
+  width: 461px;
+ }
+
+ .boissonFleur {
+  background-color: #ECE2DA;
+ }
+
+ button {
+  background-color: #DC9F96;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 19px;
+  height: 80px;
+}
+
+.paddingue {
+  padding-top: 50px;
+}
+
+.paddingueTop {
+  padding-top: 70px;
+}
+
+.paddingueTop2 {
+  padding-top: 20px;
+}
+
+.paddingueBottom {
+  padding-bottom: 50px;
+}
+
+.paddingueBottom2 {
+  padding-bottom: 10px;
+}
+
+.paddingueBottom3 {
+  padding-bottom: 110px;
+}
+
+.bouteilleFooter {
+  width: 100%;
+  height: 50%;
+  padding-bottom: 8.6%;
+  background-image: url('http://localhost/planty6/wp-content/uploads/2023/07/bouteille-multiple.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.bouteilleBienvenudos {
+  margin-top: 10px;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 1.25%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+/* Début : Page Home Section --> CE QU’ILS EN PENSENT */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 25px ;
+  }
+
+  .box {
+    display: flex;
+    align-items: stretch;
+    column-gap: 24px;
+  }
+
+  .image-box {
+    display: flex;
+    margin: 0 40px;
+  }
+
+  .text-box {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .text-column {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+   .TitreH2HomePENSENT2 {
+    width: 100%;
+    height: 0;
+    padding-bottom: 6.25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+  }
+
+  .textPENSENT {
+    font-size: 54px;
+    color: #3B8E46;
+    text-align: center;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 800;
+  }
+
+.titreImageTroueeH2 {
+    color: #3B8E46;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+  }
+
+  .TailleImage {
+    width : 150px;
+    height: 180px;
+  }
+
+/* Fin :   Page Home Section --> CE QU’ILS EN PENSENT */
+
+
+/* Media Querie !! */
+
+	@media (max-width: 1100px) {
+
+			.ContenaireFormulaireZz {
+			  margin-left: 3%;
+			}
+
+			#wpcf7-f1691-p57-o1 .wpcf7-text {
+				width: 122%;
+			}
+
+	  }
+
+  @media (max-width: 976px) {
+
+  	/* Page Home Section --> CE QU’ILS EN PENSENT */
+    .grid-container {
+      grid-template-columns: 2fr;
+      margin: 50px 0 ;
+    }
+
+    .box {
+      flex-direction: column;
+      margin: 30px 0;
+    }
+
+   /* la page Nous rencontrer */
+  .FlexLEquipe {
+      flex-direction: column;
+      margin-left:0;
+      margin-top: 30px;
+      align-items: center;
+    }
+
+		.textLEquipe {
+		  font-size: 31px;
+		}
+
+		.textLEquipe2 {
+		  font-size: 15px;
+		}
+
+		.NousRENCONTRER {
+		  padding-top: 100px;
+		}
+
+  .textNousRENCONTRER {
+		  font-size: 30px;
+		  height: 70px;
+		  margin-top: 10px;
+    }
+
+	.textparagrapheNousRENCONTRER {
+	  font-size: 15px;
+	}
+
+	 /* GRID 2 */
+	.grille2 {
+	   align-items: center;
+	   justify-items: center;
+	}
+
+   /* formulaire de Commande */
+   .ContenaireFormulaireZz {
+		  display: flex;
+		  flex-direction: column;
+		  align-items: flex-start;
+		}
+
+		#wpcf7-f1691-p57-o1 .wpcf7-text {
+		  width: 90%;
+		}
+
+		#wpcf7-f1691-p57-o1 .wpcf7-submit {
+		  margin: 10px;
+		}
+
+		.directionColumnFormLeft {
+		  gap: 1px;
+		  padding-right: 0%;
+		  margin: 0;
+		 }
+
+		.directionColumnFormRight {
+		  gap: 10px;
+		  padding-left: 0%;
+		  margin-left: 0%;
+		  margin-top: 10%;
+		 }
+
+		.separatorLigneVertical {
+		  border: none;
+		}
+
+		 .directionRowFormulaire {
+		  justify-content: start;
+		  gap: 0;
+		 }
+
+ }
+
+  @media (max-width: 825px) {
+    /* menu de naviguation*/
+
+    .ContenaireHeader {
+		  display: flex;
+		  flex-direction: column;
+		  align-items: flex-start;
+		  margin: 0;
+		  padding-top: 10px;
+		}
+
+		.menuNavigation,
+		.cssHeader {
+		  display: flex;
+		  flex-direction: column;
+		  gap: 0px;
+		  margin-left: 0px;
+		  align-items: flex-start;
+		}
+
+		.DivCommander {
+		  height: 50px;
+		  width: 190px;
+		}
+
+		/* page Home Planty */
+
+		.BoissonENERGISSANTE {
+		  height: 70px;
+		  width: 250px;
+		  font-size: 40px;
+		 }
+
+	.titreImageTroueeH2 {
+	    font-size: 20px;
+	  }
+
+	.TailleImage {
+	  width : 120px;
+	  height: 150px;
+	 }
+
+	.NousContacter {
+	  font-size: 20px;
+	}
+
+	.NousContacterFormulaire {
+	  font-size: 15px;
+	}
+
+ }
+
+  @media (max-width: 500px) {
+
+  	/* Page Home Planty / Section --> CE QU’ILS EN PENSENT */
+    .grid-container {
+      grid-template-columns: 2fr;
+    }
+
+    .box {
+      flex-direction: column;
+    }
+
+		/* page Home Planty */
+		.BoissonENERGISSANTE,
+		.lesGouts,
+		.textPENSENT {
+		  width: 100%;
+		  font-size: 30px;
+		}
+
+	  .NRJPlantes {
+	    width: 100%;
+	    font-size: 20px;
+	  }
+
+		.PlantyText  {
+		  width: 100%;
+		  font-size: 15px;
+		}
+
+	  .grille {
+	    grid-template-columns: repeat(auto-fill, 100%);
+	    max-width: 100%;
+ 	  }
+
+	  .grid-item {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+ 	  }
+
+	  .imageFruit {
+	    height: 163px;
+	    width: 200px;
+	  }
+
+	  .TailleImage {
+	    width : 100px;
+	    height: 75px;
+	  }
+
+		.NousRENCONTRER {
+		  padding-top: 50px;
+		}
+
+    .textNousRENCONTRER {
+		  font-size: 20px;
+		  height: 50px;
+    }
+
+	  .textparagrapheNousRENCONTRER {
+	    font-size: 10px;
+	    margin-top: 10px;
+	  }
+
+	  .formulaireCF7NousRencontrer,
+	  .formulaireCF7NousRencontrer2 {
+	    width: 80%;
+	  }
+
+	  #wpcf7-f371-p89-o1 .wpcf7-form {
+	    margin-left: 90px ;
+	  }
+
+	  #wpcf7-f371-p89-o1 .wpcf7-submit {
+	    margin-left: 20%;
+	  }
+
+	  .FleursousFormulaire {
+	    height: 150px;
+	    top: -175px;
+	    left: -130px;
+	  }
+  }
+
+  @media (max-width: 250px) {
+
+  	/* Page Home Section --> CE QU’ILS EN PENSENT */
+    .grid-container {
+       grid-template-columns: 1fr;
+    }
+
+     .box {
+       flex-direction: column;
+     }
+
+   /* la page Nous rencontrer */
+     .FlexLEquipe {
+       flex-direction: column;
+     }
+
+     .textNousRENCONTRER {
+		   font-size: 15px;
+		   height: 70px;
+		   margin-top: 10px;
+     }
+
+	   .formulaireCF7NousRencontrer,
+	   .formulaireCF7NousRencontrer2 {
+	     width: 70%;
+	   }
+
+		/* page Home Planty */
+		 .BoissonENERGISSANTE,
+		 .lesGouts,
+		 .textPENSENT,
+	   .TextSaisieCommande,
+	   .TextVotreCommande {
+		   font-size: 20px;
+		 }
+
+	   .textCommander {
+	     font-size: 15px;
+	   }
+
+	   .saisieCommander {
+	     width: 50px;
+	     font-size: 15px;
+	   }
+  }
+

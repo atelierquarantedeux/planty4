@@ -1,0 +1,218 @@
+/* Import de la font Syne depuis Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap%27');
+
+body {
+    font-family: 'Syne', sans-serif;     
+}
+
+/* HEADER */
+
+span.text-wrap{
+    font-size: 18px;
+}
+
+li.menu-item a {
+   color: black !important;
+   display: inline-block;
+   padding: 10px 25px;
+   background-color: white;
+   
+   text-align: center;
+}
+
+
+li.menu-item.menu-item-60 a {
+   color: white !important;
+   background-color: #dc9f96;
+   text-decoration: none !important;
+}
+
+li.menu-item.menu-item-60 a:hover{
+    color: white !important;
+    background-color: #c02e44;
+    text-decoration: none !important; 
+}
+
+li.menuNavigation{
+    text-decoration: none;
+    text-align: right;
+}
+
+/*p {    
+    margin-top: 62px;
+    margin-bottom: 100px;
+    margin-left: 66px;
+    margin-right: 66px;
+}*/
+
+h1, h2{
+    margin-top: 20px;
+    
+}
+
+/*div.wp-element-button a:hover{
+    color: white !important;
+    background-color: #c02e44;
+    text-decoration: none !important; 
+}
+
+li.menu-item a:hover{
+    color: white !important;
+    background-color: #c02e44;
+    text-decoration: none !important; 
+}*/
+
+.frm_form_fields .frm_fields_container{
+    margin-top: 22px;
+    margin-bottom: 42px;
+    margin-left: 160px !important;
+    margin-right: 160px !important;
+}
+
+.frm_submit .frm_button_submit{
+    margin-left: 60px
+}
+
+#copyright{
+    font-size: 22px;
+}
+
+.wp-block-column{
+    display: flex;
+
+}
+
+body .is-layout-flex{
+    display: flex;
+    align-content: center;
+}
+
+#wpforms-submit-259.wpform-submit{
+    background: #c02e44;
+    display: flex;
+    align-content: center;
+}
+
+
+  
+  .container {
+    position: relative;
+    display: flex;
+  }
+  
+  #second {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #main_1 {
+    font-size: 31px;
+    height: 78px;
+    width: 70px;
+    text-align: left;
+    background-color: white;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #plus {
+    font-size: 25px;
+    color: white;
+    height: 39px;
+    width: 42px;
+    background-color: #dc9f96;
+    border-bottom: solid 1.3px white;
+    border-radius: 0px 10px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #moins {
+    font-size: 25px;
+    color: white;
+    height: 39px;
+    width: 42px;
+    background-color: #dc9f96;
+    border-radius: 0px 0px 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+   /* contact form for "Commander" */
+
+   .btn-commander{
+    display: flex;
+    
+    justify-content: center;
+   }
+
+   .command{
+    display: flex;
+   }
+
+   .identity{
+    display: flex;
+   }
+
+ /* footer */
+
+
+
+   
+   .menuNavigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10%;
+    align-items: center;
+  }
+  
+  .cssHeader {
+    font-weight: 800;
+    
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    max-width: 400px;
+    min-width: 150px;
+  }
+  
+  .cssFooter {
+    font-weight: 800;
+    
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  li {
+    list-style: none;
+    min-width: 115px;
+  
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .DivCommander {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #DC9F96;
+    color: white;
+    height: 80px;
+    width: 236px;
+  }
+  
+  .LienCommander {
+    background-color: #DC9F96;
+    color: white;
+  }
