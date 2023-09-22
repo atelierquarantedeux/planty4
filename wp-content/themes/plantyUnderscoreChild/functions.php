@@ -10,10 +10,7 @@ function theme_enqueue_styles()
     wp_enqueue_style('theme-style', get_stylesheet_directory_uri() . '/theme.css', array(), filemtime(get_stylesheet_directory() . '/theme.css'));
 }
 
-
-
-
-
+// Hook to have admin in navbar
 
 add_filter('wp_nav_menu_items','add_admin_link', 10, 2);
 
@@ -23,8 +20,6 @@ function add_admin_link($items, $args) {
     }
     return $items;
 }
-
-
 
 
 // This theme uses wp_nav_menu() in one location.
