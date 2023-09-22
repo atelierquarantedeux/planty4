@@ -12,8 +12,9 @@ li{
   min-width: 215px; 
   color: black; 
 }
+
 a{
-  color: black;
+  color: black !important;
   text-decoration: none;
 }
 
