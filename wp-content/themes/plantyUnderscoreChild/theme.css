@@ -160,7 +160,6 @@ textarea{
 
   /* Formulaire de Commande */
 
-
 .commandForm{
   display: flex;
   flex-direction: row;
@@ -241,7 +240,6 @@ textarea{
 
 footer{  
   margin-bottom: -50px;
-  /* margin-left: -20px; */
 }
 
 
